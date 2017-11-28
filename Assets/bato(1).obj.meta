@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 813a8463d3c52284491f0e7ea8cdadc4
+timeCreated: 1511542214
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bato
+    100002: //RootNode
+    100004: Cube_1
+    100006: Cylinder4
+    100008: human_ref
+    100010: m_t_1_Cylinder2
+    100012: m_t_1_Cylinder3
+    100014: m_t_1_wooden_voile1_Cylinder5
+    100016: m_t_1_wooden_voile1_Cylinder_21
+    100018: m_t_1_wooden_voile1_voile_2
+    100020: m_t_Cylinder
+    100022: m_t_Cylinder_1
+    100024: m_t_voile
+    100026: m_t_voile_1
+    100028: m_t_wooden_voile_1_Cylinder1
+    100030: m_t_wooden_voile_1_Cylinder_22
+    100032: m_t_wooden_voile_Cylinder6
+    100034: m_t_wooden_voile_Cylinder_2
+    100036: Plane
+    100038: stair_1_Cloner1_marche2_3
+    100040: stair_1_Cloner1_marche2_4
+    100042: stair_1_Cloner1_marche2_5
+    100044: stair_1_Cloner1_marche_0
+    100046: stair_1_Cloner1_marche_1
+    100048: stair_1_Cloner1_marche_21
+    100050: stair_1_planche1
+    100052: stair_1_plnache2
+    100054: stair_Cloner_marche2_10
+    100056: stair_Cloner_marche2_11
+    100058: stair_Cloner_marche2_12
+    100060: stair_Cloner_marche2_13
+    100062: stair_Cloner_marche2_7
+    100064: stair_Cloner_marche2_8
+    100066: stair_Cloner_marche2_9
+    100068: stair_Cloner_marche_01
+    100070: stair_Cloner_marche_11
+    100072: stair_Cloner_marche_2
+    100074: stair_Cloner_marche_3
+    100076: stair_Cloner_marche_4
+    100078: stair_Cloner_marche_5
+    100080: stair_Cloner_marche_6
+    100082: stair_planche
+    100084: stair_plnache21
+    400000: bato
+    400002: //RootNode
+    400004: Cube_1
+    400006: Cylinder4
+    400008: human_ref
+    400010: m_t_1_Cylinder2
+    400012: m_t_1_Cylinder3
+    400014: m_t_1_wooden_voile1_Cylinder5
+    400016: m_t_1_wooden_voile1_Cylinder_21
+    400018: m_t_1_wooden_voile1_voile_2
+    400020: m_t_Cylinder
+    400022: m_t_Cylinder_1
+    400024: m_t_voile
+    400026: m_t_voile_1
+    400028: m_t_wooden_voile_1_Cylinder1
+    400030: m_t_wooden_voile_1_Cylinder_22
+    400032: m_t_wooden_voile_Cylinder6
+    400034: m_t_wooden_voile_Cylinder_2
+    400036: Plane
+    400038: stair_1_Cloner1_marche2_3
+    400040: stair_1_Cloner1_marche2_4
+    400042: stair_1_Cloner1_marche2_5
+    400044: stair_1_Cloner1_marche_0
+    400046: stair_1_Cloner1_marche_1
+    400048: stair_1_Cloner1_marche_21
+    400050: stair_1_planche1
+    400052: stair_1_plnache2
+    400054: stair_Cloner_marche2_10
+    400056: stair_Cloner_marche2_11
+    400058: stair_Cloner_marche2_12
+    400060: stair_Cloner_marche2_13
+    400062: stair_Cloner_marche2_7
+    400064: stair_Cloner_marche2_8
+    400066: stair_Cloner_marche2_9
+    400068: stair_Cloner_marche_01
+    400070: stair_Cloner_marche_11
+    400072: stair_Cloner_marche_2
+    400074: stair_Cloner_marche_3
+    400076: stair_Cloner_marche_4
+    400078: stair_Cloner_marche_5
+    400080: stair_Cloner_marche_6
+    400082: stair_planche
+    400084: stair_plnache21
+    2300000: bato
+    2300002: Cube_1
+    2300004: Cylinder4
+    2300006: human_ref
+    2300008: m_t_1_Cylinder2
+    2300010: m_t_1_Cylinder3
+    2300012: m_t_1_wooden_voile1_Cylinder5
+    2300014: m_t_1_wooden_voile1_Cylinder_21
+    2300016: m_t_1_wooden_voile1_voile_2
+    2300018: m_t_Cylinder
+    2300020: m_t_Cylinder_1
+    2300022: m_t_voile
+    2300024: m_t_voile_1
+    2300026: m_t_wooden_voile_1_Cylinder1
+    2300028: m_t_wooden_voile_1_Cylinder_22
+    2300030: m_t_wooden_voile_Cylinder6
+    2300032: m_t_wooden_voile_Cylinder_2
+    2300034: Plane
+    2300036: stair_1_Cloner1_marche2_3
+    2300038: stair_1_Cloner1_marche2_4
+    2300040: stair_1_Cloner1_marche2_5
+    2300042: stair_1_Cloner1_marche_0
+    2300044: stair_1_Cloner1_marche_1
+    2300046: stair_1_Cloner1_marche_21
+    2300048: stair_1_planche1
+    2300050: stair_1_plnache2
+    2300052: stair_Cloner_marche2_10
+    2300054: stair_Cloner_marche2_11
+    2300056: stair_Cloner_marche2_12
+    2300058: stair_Cloner_marche2_13
+    2300060: stair_Cloner_marche2_7
+    2300062: stair_Cloner_marche2_8
+    2300064: stair_Cloner_marche2_9
+    2300066: stair_Cloner_marche_01
+    2300068: stair_Cloner_marche_11
+    2300070: stair_Cloner_marche_2
+    2300072: stair_Cloner_marche_3
+    2300074: stair_Cloner_marche_4
+    2300076: stair_Cloner_marche_5
+    2300078: stair_Cloner_marche_6
+    2300080: stair_planche
+    2300082: stair_plnache21
+    3300000: bato
+    3300002: Cube_1
+    3300004: Cylinder4
+    3300006: human_ref
+    3300008: m_t_1_Cylinder2
+    3300010: m_t_1_Cylinder3
+    3300012: m_t_1_wooden_voile1_Cylinder5
+    3300014: m_t_1_wooden_voile1_Cylinder_21
+    3300016: m_t_1_wooden_voile1_voile_2
+    3300018: m_t_Cylinder
+    3300020: m_t_Cylinder_1
+    3300022: m_t_voile
+    3300024: m_t_voile_1
+    3300026: m_t_wooden_voile_1_Cylinder1
+    3300028: m_t_wooden_voile_1_Cylinder_22
+    3300030: m_t_wooden_voile_Cylinder6
+    3300032: m_t_wooden_voile_Cylinder_2
+    3300034: Plane
+    3300036: stair_1_Cloner1_marche2_3
+    3300038: stair_1_Cloner1_marche2_4
+    3300040: stair_1_Cloner1_marche2_5
+    3300042: stair_1_Cloner1_marche_0
+    3300044: stair_1_Cloner1_marche_1
+    3300046: stair_1_Cloner1_marche_21
+    3300048: stair_1_planche1
+    3300050: stair_1_plnache2
+    3300052: stair_Cloner_marche2_10
+    3300054: stair_Cloner_marche2_11
+    3300056: stair_Cloner_marche2_12
+    3300058: stair_Cloner_marche2_13
+    3300060: stair_Cloner_marche2_7
+    3300062: stair_Cloner_marche2_8
+    3300064: stair_Cloner_marche2_9
+    3300066: stair_Cloner_marche_01
+    3300068: stair_Cloner_marche_11
+    3300070: stair_Cloner_marche_2
+    3300072: stair_Cloner_marche_3
+    3300074: stair_Cloner_marche_4
+    3300076: stair_Cloner_marche_5
+    3300078: stair_Cloner_marche_6
+    3300080: stair_planche
+    3300082: stair_plnache21
+    4300000: bato
+    4300002: Cube_1
+    4300004: Cylinder4
+    4300006: human_ref
+    4300008: m_t_1_Cylinder2
+    4300010: m_t_1_Cylinder3
+    4300012: m_t_1_wooden_voile1_Cylinder5
+    4300014: m_t_1_wooden_voile1_Cylinder_21
+    4300016: m_t_1_wooden_voile1_voile_2
+    4300018: m_t_Cylinder
+    4300020: m_t_Cylinder_1
+    4300022: m_t_voile
+    4300024: m_t_voile_1
+    4300026: m_t_wooden_voile_1_Cylinder1
+    4300028: m_t_wooden_voile_1_Cylinder_22
+    4300030: m_t_wooden_voile_Cylinder6
+    4300032: m_t_wooden_voile_Cylinder_2
+    4300034: Plane
+    4300036: stair_1_Cloner1_marche2_3
+    4300038: stair_1_Cloner1_marche2_4
+    4300040: stair_1_Cloner1_marche2_5
+    4300042: stair_1_Cloner1_marche_0
+    4300044: stair_1_Cloner1_marche_1
+    4300046: stair_1_Cloner1_marche_21
+    4300048: stair_1_planche1
+    4300050: stair_1_plnache2
+    4300052: stair_Cloner_marche2_10
+    4300054: stair_Cloner_marche2_11
+    4300056: stair_Cloner_marche2_12
+    4300058: stair_Cloner_marche2_13
+    4300060: stair_Cloner_marche2_7
+    4300062: stair_Cloner_marche2_8
+    4300064: stair_Cloner_marche2_9
+    4300066: stair_Cloner_marche_01
+    4300068: stair_Cloner_marche_11
+    4300070: stair_Cloner_marche_2
+    4300072: stair_Cloner_marche_3
+    4300074: stair_Cloner_marche_4
+    4300076: stair_Cloner_marche_5
+    4300078: stair_Cloner_marche_6
+    4300080: stair_planche
+    4300082: stair_plnache21
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cube_1Mat
+    second: {fileID: 2100000, guid: a72cdcd730a935c4bb2bcf793a44d61b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder4Mat
+    second: {fileID: 2100000, guid: 4f27c0a33e6d1ca418eb4bdb3961a9a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlaneMat
+    second: {fileID: 2100000, guid: d8b954fe5664c894080b4c32ab4c6d2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batoMat
+    second: {fileID: 2100000, guid: 8afe738bb4222104cbbf29f7f8820dab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: human_refMat
+    second: {fileID: 2100000, guid: 26630cb6aed04d24b93c6ea63ed0982b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_1_Cylinder2Mat
+    second: {fileID: 2100000, guid: 1dc69ec418730744fb1b7d57532cf2f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_1_Cylinder3Mat
+    second: {fileID: 2100000, guid: dd6fa16870436bf4bb2cdedca8f887de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_1_wooden_voile1_Cylinder5Mat
+    second: {fileID: 2100000, guid: fed7e9a7fbd2db74ea3f22c7c4eebd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_1_wooden_voile1_Cylinder_21Mat
+    second: {fileID: 2100000, guid: 3bec8e47e4a2518448089f2c07841cf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_1_wooden_voile1_voile_2Mat
+    second: {fileID: 2100000, guid: c66089879cfa8e843bda808706af0570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_CylinderMat
+    second: {fileID: 2100000, guid: 9c8b7c2c3df6bf04db27f83993f5a8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_Cylinder_1Mat
+    second: {fileID: 2100000, guid: bf335b6e679fad845a1d68439f0c81cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_voileMat
+    second: {fileID: 2100000, guid: 8b0540705d3710043bf7badbd65ba606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_voile_1Mat
+    second: {fileID: 2100000, guid: a13bbe89e21235045b4a580b310dd76b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_wooden_voile_1_Cylinder1Mat
+    second: {fileID: 2100000, guid: b30f689bc4f575549aeefc873180427f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_wooden_voile_1_Cylinder_22Mat
+    second: {fileID: 2100000, guid: e6d6b47b742e588488e8f2661841b339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_wooden_voile_Cylinder6Mat
+    second: {fileID: 2100000, guid: 436dd37fa8f32d744a45e60552724284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_t_wooden_voile_Cylinder_2Mat
+    second: {fileID: 2100000, guid: a97c6f72c92a5c14fb644a1b1727cb5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_Cloner1_marche2_3Mat
+    second: {fileID: 2100000, guid: 22288a9227ad8704c8456735a953f1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_Cloner1_marche2_4Mat
+    second: {fileID: 2100000, guid: 198bf0455162409429771e69d30d7c48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_Cloner1_marche2_5Mat
+    second: {fileID: 2100000, guid: a9c21ce291eced84c9d0d84022d73bfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_Cloner1_marche_0Mat
+    second: {fileID: 2100000, guid: fad0b8d2feadd924da050a4a7a51c276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_Cloner1_marche_1Mat
+    second: {fileID: 2100000, guid: 87554f300aad22b49b440a2e4b380b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_Cloner1_marche_21Mat
+    second: {fileID: 2100000, guid: 67e6cdcf6311fea4394979dc5d3e1950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_planche1Mat
+    second: {fileID: 2100000, guid: d1c1d52395eecfe4e9886681f1aa6eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_1_plnache2Mat
+    second: {fileID: 2100000, guid: 779d0db6e2512234091f44fd9ee2f51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_10Mat
+    second: {fileID: 2100000, guid: ee056902eaf733944a29710f1416d3a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_11Mat
+    second: {fileID: 2100000, guid: 84a94179672431c45a63c456240bba89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_12Mat
+    second: {fileID: 2100000, guid: 9ead118628aa1c84a81039d234057489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_13Mat
+    second: {fileID: 2100000, guid: 5444ad260a51d2f4497c7cd13fb99bbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_7Mat
+    second: {fileID: 2100000, guid: 992ebcba3d4ddd246891f71fdf1cef3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_8Mat
+    second: {fileID: 2100000, guid: 77b73ad6220a77c44b7b3a7e91bff73a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche2_9Mat
+    second: {fileID: 2100000, guid: 784609dc7fd7d1d41b7b2e2b9cb471a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_01Mat
+    second: {fileID: 2100000, guid: ed459ce94c4c675409c1c8fb17a07138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_11Mat
+    second: {fileID: 2100000, guid: 3ef757b6814f66146bc86fdde0e89665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_2Mat
+    second: {fileID: 2100000, guid: d9fcbd713ee1b694cab087ebb9dca482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_3Mat
+    second: {fileID: 2100000, guid: 49acb0ed14f4f91418a7166fe013ae6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_4Mat
+    second: {fileID: 2100000, guid: 04e53d42600a8f0498bf16ca4dc8bb56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_5Mat
+    second: {fileID: 2100000, guid: 8e2e4c0e4a86ea74a871cd0a7e5dc620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_Cloner_marche_6Mat
+    second: {fileID: 2100000, guid: eb2f520b8c914e04fb4dbda14523f7fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_plancheMat
+    second: {fileID: 2100000, guid: 7ecd3c06cddba6243b113ec53ebc89c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_plnache21Mat
+    second: {fileID: 2100000, guid: 3ca96162258a82b40870b0e0bc82eeb8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
