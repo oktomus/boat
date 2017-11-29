@@ -2,12 +2,9 @@ language: objective-c
 osx_image: xcode8.3
 rvm:
  - 2.2
-before_install:
- - chmod a+x ./buid.install.sh
- - chmod a+x ./build.web.sh
 install:
  - git clone https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git -b gh-pages gh-pages
- - ./build.install.sh
+ - sh ./build.install.sh
  - cd gh-pages
  - git config --global user.email "hi@oktomus.com"
  - git config --global user.name "Kevin Masson"
@@ -17,4 +14,4 @@ install:
  - git commit -m "deploy by ${TRAVIS_COMMIT}[${TRAVIS_EVENT_TYPE}]"
  - git push --quiet origin gh-pages > /dev/null 2>&1
 script:
- - ./build.web.sh
+ - sh ./build.web.sh
