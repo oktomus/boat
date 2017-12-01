@@ -7,6 +7,7 @@ install:
  - sh ./build.web.sh
  - mv build.*.log gh-pages
  - cd gh-pages
+ - rm -rf *
  - git config --global user.email "hi@oktomus.com"
  - git config --global user.name "Kevin Masson"
  - git remote rm origin
