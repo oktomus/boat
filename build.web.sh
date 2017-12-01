@@ -8,11 +8,11 @@ echo "Attempting to build $project for WebGL"
 	-batchmode 
 	-nograhpics
 	-silent-crashes
-	-logFile $(pwd)/unity.log
+	-logFile $(pwd)/build.web.log
 	-executeMethod $(pwd)/Assets/Editor/WebGLBuilder.build
 
 echo 'Logs from build'
-cat $(pwd)/unity.log
+cat $(pwd)/gh-pages/build.web.log
 
 
 #echo 'Attempting to zip builds'

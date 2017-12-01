@@ -4,11 +4,14 @@ rvm:
 install:
  - git clone https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git -b gh-pages gh-pages
  - sh ./build.install.sh
+ - mv build.*.log gh-pages
  - cd gh-pages
  - git config --global user.email "hi@oktomus.com"
  - git config --global user.name "Kevin Masson"
  - git remote rm origin
  - git remote add origin https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git
+ - find ../ -name WebGL-Dist
+ - mv ../WebGL-Dist/* .
  - git add .
  - git commit -m "deploy by ${TRAVIS_COMMIT}[${TRAVIS_EVENT_TYPE}]"
  - git push --quiet origin gh-pages > /dev/null 2>&1
