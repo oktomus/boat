@@ -4,6 +4,7 @@ rvm:
 install:
  - git clone https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git -b gh-pages gh-pages
  - sh ./build.install.sh
+ - sh ./build.web.sh
  - mv build.*.log gh-pages
  - cd gh-pages
  - git config --global user.email "hi@oktomus.com"
