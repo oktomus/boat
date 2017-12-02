@@ -1,6 +1,10 @@
 #! /bin/sh
 
+set -x
+
 project="boat"
+
+rm $(pwd)/gh-pages/build.web.log 2> /dev/null
 
 echo "Attempting to build $project for WebGL"
 /applications/Unity/Unity.app/Contents/MacOS/Unity
@@ -8,8 +12,7 @@ echo "Attempting to build $project for WebGL"
 	-batchmode 
 	-nograhpics
 	-silent-crashes
-	-logFile $(pwd)/build.web.log
-	-executeMethod $(pwd)/Assets/Editor/WebGLBuilder.build
+        -executeMethod $(pwd)/Assets/Editor/WebGLBuilder.build 2>&1 | tee $(pwd)/gh-pages/build.web.log
 
 echo 'Logs from build'
 cat $(pwd)/gh-pages/build.web.log
