@@ -3,11 +3,11 @@ rvm:
  - 2.2
 install:
  - git clone https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git -b gh-pages gh-pages
+ - rm -rf gh-pages/*
  - sh ./build.install.sh
- - travis_wait 60 sh ./build.web.sh
+ - sh ./build.web.sh
  - mv build.*.log gh-pages
  - cd gh-pages
- - rm -rf *
  - git config --global user.email "hi@oktomus.com"
  - git config --global user.name "Kevin Masson"
  - git remote rm origin
