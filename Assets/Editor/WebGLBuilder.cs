@@ -2,9 +2,6 @@
 using UnityEditor;
 
 
-//to be used on the command line:
-//$ Unity -quit -batchmode -executeMethod WebGLBuilder.build
-
 class WebGLBuilder {
 	static void build() {
 		string[] scenes = {"Assets/Level.unity"};
