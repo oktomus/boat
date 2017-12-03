@@ -1,0 +1,4 @@
+TemplateData filter=lfs diff=lfs merge=lfs -text
+Build filter=lfs diff=lfs merge=lfs -text
+build.web.log filter=lfs diff=lfs merge=lfs -text
+index.html filter=lfs diff=lfs merge=lfs -text
