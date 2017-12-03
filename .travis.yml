@@ -6,8 +6,8 @@ install:
  - sh ./build.install.sh
  - sh ./build.web.sh
  - cd gh-pages
- - git config --global user.email "hi@oktomus.com"
- - git config --global user.name "Kevin Masson"
+ - git config --global user.email "not-travis@travis.com"
+ - git config --global user.name "travis-ci"
  - git remote rm origin
  - git remote add origin https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git
  - git add .
