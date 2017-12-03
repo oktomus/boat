@@ -29,9 +29,10 @@ $UNITY \
 
 echo "Unity execution finished."
 rm WebGLBuilder.cs
-mv -f WebGL-Dist/index.html gh-pages
-mv -f WebGL-Dist/Build gh-pages
-mv -f WebGL-Dist/TemplateData gh-pages
+mv WebGL-Dist/index.html gh-pages
+mv WebGL-Dist/Build gh-pages
+mv WebGL-Dist/TemplateData gh-pages
+exit 0
 
 
 #echo 'Attempting to zip builds'
