@@ -27,8 +27,7 @@ $UNITY \
 	-logFile $LOGFILE \
     -executeMethod WebGLBuilder.build
 
-echo "Unity execution finished. Log:"
-cat $LOGFILE
+echo "Unity execution finished."
 rm WebGLBuilder.cs
 mv -f WebGL-Dist/index.html gh-pages
 mv -f WebGL-Dist/Build gh-pages
