@@ -1,17 +1,25 @@
 language: objective-c
+branches:
+  only:
+   - master
 rvm:
- - 2.2
+- 2.2
 install:
- - git clone https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git -b gh-pages gh-pages
- - sh ./build.install.sh
- - sh ./build.web.sh
- - cd gh-pages
- - git config --global user.email "not-travis@travis.com"
- - git config --global user.name "travis-ci"
- - git remote rm origin
- - git remote add origin https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git
- - git add .
- - git commit -m "deploy by ${TRAVIS_COMMIT}[${TRAVIS_EVENT_TYPE}]"
- - git push --quiet origin gh-pages > /dev/null 2>&1
+- sh ./build.install.sh
+before_script:
+- git clone "https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git" -b gh-pages gh-pages
+- cd gh-pages
+- git config --global user.email "not-travis@travis.com"
+- git config --global user.name "travis-ci"
+- git remote rm origin
+- git remote add origin "https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git"
+- cd ..
 script:
- - sh ./build.web.sh
+- sh ./build.web.sh
+- cd gh-pages
+- git add .
+- git commit -m "deploy by ${TRAVIS_COMMIT}[${TRAVIS_EVENT_TYPE}]"
+- git push --quiet origin gh-pages
+env:
+  global:
+  - secure: S6D9B+cxNQ4GdVkP6xZhMj0eEDjqruidLcZ1k32zqwRmXuxuSydluXdlkE6UIjYrpeOBX9sMd3+XHBDqycwObMwFk5NAhdH4dLvhtI1SyMs9RJbwzIzp3D33hmNHDaWBM2Ed5g18cQov4KJRMlod2Z/QqqHn6Sp7405n/zWxnZHqwAOrm4abT7fXjJWptBZm0SHZKEpYW1kgfhn9fTHgiAclhJpZoExTevQtjygkcCvg1pkMpx+ZX7nh+y0AOtGb6Qy75Bj6lYF/7S2l1hRPwAvnRCbkAq05WmFWXd9xct/OI0wofvhOI9dMnz0CHM/nUwZ8M7lroQ21LQE/ekN+RQP7tJY/wX62MDQf4m7GeGBpnifdi7FfNclHHChbw5XkwuLlvZnQicQwR7aYNn9iHyg6yJFXG5M7584nr5hmFz03Q4AtkhhGQh1Zu7m3JKHvB9AbZ7XmM52EN8+u5GzgBBqpHzpupiSpGcDfLa8UofNqdxyYIFijrAI7B+2fszrTtL240OUhwkhDH1fZfhk8pQWtSrqapsjYQyD02xaIL3AIMIYt9o6FiuN3hyIyKPgh33M9Woe5Pr+u5ZjRVIlFWn2kQGGD/ekdfzaCHD3E5I31d0O8vJsGy5ousB0lLUA4ngjzd7SW+j1YW3y65Z5d6GNY9PvdORGlBlTlAtuBNkk=
