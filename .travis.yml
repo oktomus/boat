@@ -7,13 +7,9 @@ rvm:
 install:
 - sh ./build.install.sh
 before_script:
-- git clone "https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git" -b gh-pages gh-pages
-- cd gh-pages
+- git clone https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git -b gh-pages gh-pages
 - git config --global user.email "not-travis@travis.com"
 - git config --global user.name "travis-ci"
-- git remote rm origin
-- git remote add origin "https://oktomus:${GH_TOKEN}@github.com/oktomus/boat.git"
-- cd ..
 script:
 - sh ./build.web.sh
 - cd gh-pages
