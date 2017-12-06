@@ -16,6 +16,3 @@ script:
 - git add .
 - git commit -m "deploy by ${TRAVIS_COMMIT}[${TRAVIS_EVENT_TYPE}]"
 - git push --quiet origin gh-pages
-env:
-  global:
-  - secure: RyrSZ4sa4vvm9sy9nCJKxfJ/7nMuL6VFEBD4CGKzV+VJclmHsZuWmMlRUUVQAAU28T5u0QaT58rHrXnFeKDcaTyw11tUhXMFZ7P0pAu39tuYzWx+6pQWdFqjko5oUNuql3p6cqb0WAC3dtW3GMh8YNdclk9hNZJ7RrQE9FbNJM5A8n7KMH8hWJJD0ltIVDH4FImeXY74SZxgVo6uzsngtrsewkeqaU8e10vKH23E/vrGIggAQPcTYH+HLC4rBt88jBkwXXuRkkm9TxvMsc4iIMdaLClPziz1GTSTB7qNNjh68Gu7f4VcCDiUnMN6b52lhXqmf+OlkavBUU/o3/96czLm4QAzpbWJn/MiAHk2LLdd/wbrJigsbPNie0DKTtA1+t6f2UGfEAwA9JhRRuoUV0v1cskpsI0UesSJlmvvCsS1SeOizGdUK/qScNur96amk1AXDdrAWDFK9GFd4bdY8v+rRzoJGT64Bu4ICjvhekl96wdEthG5w+KBUYdAf/nc/O+WN6Ept1zucnQaJmQlXFvwKZWXO++RC9SveYtnN5CxtahnxyESbCLsoQaZB3MVK/Giol2UdNJPJblk10udP912izNZ+oxmDVEVThfUgSn0WZAJ9ENxZy0MmBjQ7WmPBiXrjl47UaUnTcCSQtllYDEDNGqE0SMylseahjQkmkY=
