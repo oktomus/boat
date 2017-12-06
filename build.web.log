@@ -1,0 +1,723 @@
+[Package Manager] Server::Start -- Port 56879 was selected
+
+ COMMAND LINE ARGUMENTS:
+/applications/Unity/Unity.app/Contents/MacOS/Unity
+-quit
+-batchmode
+-nographics
+-logFile
+/Users/travis/build/oktomus/boat/gh-pages/build.web.log
+-executeMethod
+WebGLBuilder.build
+/Users/travis/build/oktomus/boat
+Rebuilding Library because the asset database could not be found!
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Modules/AssetDatabase/Editor/Shared/AssetDatabaseInitialization.cpp Line: 169)
+
+Audio: FMOD Profiler initialized on port 54900
+Loading GUID <-> Path mappings...0.000046 seconds
+Loading Asset Database...0.000008 seconds
+AssetDatabase consistency checks...0.000493 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Resolving 3 packages:
+[Package Manager]  * Package :  com.unity.ads@1.0.7
+    (location: /Users/travis/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7)
+[Package Manager]  * Package :  com.unity.analytics@1.0.1
+    (location: /Users/travis/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1)
+[Package Manager]  * Package :  com.unity.purchasing@1.0.1
+    (location: /Users/travis/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1)
+[Package Manager] Resolve completed
+Initialize engine version: 2017.2.0f3 (46dda1414e51)
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = '/applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0'
+Mono config path = '/applications/Unity/Unity.app/Contents/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56219
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering precompiled unity dll's ...
+Register platform support module: /applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.014788 seconds.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.383 seconds
+Registering platform support modules:
+Registered platform support modules in: 0.457524s.
+Native extension for OSXStandalone target not found
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 0.012410 seconds.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.130918s.
+Native extension for OSXStandalone target not found
+Validating Project structure ... 0.001445 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.002654 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.923 seconds
+  file open: 0.004 seconds (202 files)
+  file read: 0.893 seconds (35.258 MB)
+  hash: 0.057 seconds
+----- Compute hash(es) for 101 asset(s).
+
+*** 8e306f8315a0aff4caf32236b249196c replaces 9006853d42a254166a916fbc9423d69c at path assets/boat.cs 
+*** 9339990738cca00419808051cd88941d replaces d0638895152454adca70bf9cfd0d62cd at path assets/editor/webglbuilder.cs 
+*** 0a487fc784c6c8a4bb2ada5b7c02b975 replaces f773330e96ff94d4794d917a419fe88f at path assets/fleet.cs 
+*** 75c59dfa079f7b040885aa47aaf1b5f3 replaces d8eedaf741e8741019007fe2927efde2 at path assets/gridgenerator.cs 
+*** aa4e108d95b13d74eb8ff506d17e7a90 replaces a777b9e5531fc4ec8bb167be7e16cdd0 at path assets/level.unity 
+*** a72cdcd730a935c4bb2bcf793a44d61b replaces 02fd710d1be554cb6847bf66bbef9328 at path assets/materials/cube_1mat.mat 
+*** 4f27c0a33e6d1ca418eb4bdb3961a9a6 replaces 5f2d407f5b4af41a59193e0f8f7a7a7f at path assets/materials/cylinder4mat.mat 
+*** d8b954fe5664c894080b4c32ab4c6d2d replaces a93bb6fb98a3e4e0a99c66945a44e774 at path assets/materials/planemat.mat 
+*** 8afe738bb4222104cbbf29f7f8820dab replaces 777a52ec8dace43d3a681208400c52ad at path assets/materials/batomat.mat 
+*** 26630cb6aed04d24b93c6ea63ed0982b replaces 8a626c0ede01544e8a1a7f884ac37d46 at path assets/materials/human_refmat.mat 
+*** 1dc69ec418730744fb1b7d57532cf2f6 replaces f54333cbb0bb3436f8736ef47a7d0585 at path assets/materials/m_t_1_cylinder2mat.mat 
+*** dd6fa16870436bf4bb2cdedca8f887de replaces 6b57b7b772567441187ae5d66d704832 at path assets/materials/m_t_1_cylinder3mat.mat 
+*** fed7e9a7fbd2db74ea3f22c7c4eebd45 replaces 05abfa1df78f6418c893c04c85fa35f8 at path assets/materials/m_t_1_wooden_voile1_cylinder5mat.mat 
+*** 3bec8e47e4a2518448089f2c07841cf9 replaces 8f1227b63e65949bb99ddc7bb9a3fee3 at path assets/materials/m_t_1_wooden_voile1_cylinder_21mat.mat 
+*** c66089879cfa8e843bda808706af0570 replaces 0b49f21350d124a0e83ce3cefde8afda at path assets/materials/m_t_1_wooden_voile1_voile_2mat.mat 
+*** 9c8b7c2c3df6bf04db27f83993f5a8fd replaces 7c3098956044442468934d8ab363334b at path assets/materials/m_t_cylindermat.mat 
+*** bf335b6e679fad845a1d68439f0c81cb replaces efa9ab52baa0f4ad9ace1e242f47beac at path assets/materials/m_t_cylinder_1mat.mat 
+*** 8b0540705d3710043bf7badbd65ba606 replaces 46e56cdf639644ec2bf9c2cf0763c15a at path assets/materials/m_t_voilemat.mat 
+*** a13bbe89e21235045b4a580b310dd76b replaces 506253728861d4c3d878b7084a92c877 at path assets/materials/m_t_voile_1mat.mat 
+*** b30f689bc4f575549aeefc873180427f replaces 6ce47170cdb1845caae9f43833df6caa at path assets/materials/m_t_wooden_voile_1_cylinder1mat.mat 
+*** e6d6b47b742e588488e8f2661841b339 replaces 32477711fb29f4310a1ad6b14bfb2038 at path assets/materials/m_t_wooden_voile_1_cylinder_22mat.mat 
+*** 436dd37fa8f32d744a45e60552724284 replaces 22190e1f8f08c42b8b457cf1dc73494b at path assets/materials/m_t_wooden_voile_cylinder6mat.mat 
+*** a97c6f72c92a5c14fb644a1b1727cb5c replaces 6f6ccf1390de7480dba548eef57e2efd at path assets/materials/m_t_wooden_voile_cylinder_2mat.mat 
+*** 22288a9227ad8704c8456735a953f1d4 replaces c830210f2700a4cb09bab7cf769718f6 at path assets/materials/stair_1_cloner1_marche2_3mat.mat 
+*** 198bf0455162409429771e69d30d7c48 replaces 1a0d8d6e284e643f08eadaa83ab55dc4 at path assets/materials/stair_1_cloner1_marche2_4mat.mat 
+*** a9c21ce291eced84c9d0d84022d73bfa replaces 6bcbe1a6fd56c40e980781b20dad7225 at path assets/materials/stair_1_cloner1_marche2_5mat.mat 
+*** fad0b8d2feadd924da050a4a7a51c276 replaces 1a9371ff11a774c98bb9f8a6eb243986 at path assets/materials/stair_1_cloner1_marche_0mat.mat 
+*** 87554f300aad22b49b440a2e4b380b81 replaces ae511c943896c49a1a4c9297f0568d0d at path assets/materials/stair_1_cloner1_marche_1mat.mat 
+*** 67e6cdcf6311fea4394979dc5d3e1950 replaces 1abfba14a1d3442329d0a74bccf2fd72 at path assets/materials/stair_1_cloner1_marche_21mat.mat 
+*** d1c1d52395eecfe4e9886681f1aa6eb4 replaces 8504b61a9ec6f4c50a77a3cc6ed2ba26 at path assets/materials/stair_1_planche1mat.mat 
+*** 779d0db6e2512234091f44fd9ee2f51a replaces e595b9fd1539a4f2daf32e2d19dd0f53 at path assets/materials/stair_1_plnache2mat.mat 
+*** ee056902eaf733944a29710f1416d3a1 replaces 25abcde2469eb4ace8f7fc18c526be74 at path assets/materials/stair_cloner_marche2_10mat.mat 
+*** 84a94179672431c45a63c456240bba89 replaces 613705cddd4664d0aa51a2bfb713506f at path assets/materials/stair_cloner_marche2_11mat.mat 
+*** 9ead118628aa1c84a81039d234057489 replaces a28d421c3a21843d9ac0daadb56db525 at path assets/materials/stair_cloner_marche2_12mat.mat 
+*** 5444ad260a51d2f4497c7cd13fb99bbb replaces 6ec6eaad4302142b587656b8bdcedbe4 at path assets/materials/stair_cloner_marche2_13mat.mat 
+*** 992ebcba3d4ddd246891f71fdf1cef3d replaces 737a3d9b5ddfb4b8ab6a4d31e3880ece at path assets/materials/stair_cloner_marche2_7mat.mat 
+*** 77b73ad6220a77c44b7b3a7e91bff73a replaces 605e17beb234b44f4b3b9f7065123f8f at path assets/materials/stair_cloner_marche2_8mat.mat 
+*** 784609dc7fd7d1d41b7b2e2b9cb471a4 replaces d09a9727c35524abc95741ca67293eb6 at path assets/materials/stair_cloner_marche2_9mat.mat 
+*** ed459ce94c4c675409c1c8fb17a07138 replaces 8e4969796f140448a8a3822fb2925b7b at path assets/materials/stair_cloner_marche_01mat.mat 
+*** 3ef757b6814f66146bc86fdde0e89665 replaces 82e71f4404d2346ce93be3da39bfb59b at path assets/materials/stair_cloner_marche_11mat.mat 
+*** d9fcbd713ee1b694cab087ebb9dca482 replaces 699cc1a7eea2d4f48b6f8b3969f34ef4 at path assets/materials/stair_cloner_marche_2mat.mat 
+*** 49acb0ed14f4f91418a7166fe013ae6d replaces 576b0104707de45398d908a89055eacb at path assets/materials/stair_cloner_marche_3mat.mat 
+*** 04e53d42600a8f0498bf16ca4dc8bb56 replaces b0b6ef0a2eee4403db79386e15051946 at path assets/materials/stair_cloner_marche_4mat.mat 
+*** 8e2e4c0e4a86ea74a871cd0a7e5dc620 replaces 4da49c26996da4f388fe57d0c5d4fa55 at path assets/materials/stair_cloner_marche_5mat.mat 
+*** eb2f520b8c914e04fb4dbda14523f7fb replaces 9f879467480e7453891dbfdbf79db78f at path assets/materials/stair_cloner_marche_6mat.mat 
+*** 7ecd3c06cddba6243b113ec53ebc89c7 replaces 252476ce20d2a47e1bd7482290f4a2b0 at path assets/materials/stair_planchemat.mat 
+*** 3ca96162258a82b40870b0e0bc82eeb8 replaces 3c66ccc00bfc94bdeb2cedc85e04da21 at path assets/materials/stair_plnache21mat.mat 
+*** 6b4147c5a8eea1840bf49a8945f26d8b replaces d691919a2cb91469c9e8845bd7332f3f at path assets/water.mat 
+*** d6ecdc0274dd3b244b692b8eab6ff296 replaces 723f9194762da430f85d069c41b14ef0 at path assets/wavedebbuger.mat 
+*** 615cb96bc0700404d9f64a5e796dff5c replaces 827de848d96b74b2e9e37cb630cff61f at path assets/wavedebugger.cs 
+*** 542370792b459d44183880a99f6a176d replaces 8315a76cf064148dcbc3bc7483077ef8 at path assets/waver.cs 
+*** 813a8463d3c52284491f0e7ea8cdadc4 replaces cbcdd1dfa32e8416995aadcddb76d1aa at path assets/bato(1).obj 
+*** b32abd1c9d73a4cce8389f084ac12b11 replaces ed6e62820a93c4e9db11bf98439fcf35 at path packages/com.unity.ads@1.0.7/editor/resources/android/builds/unity-ads.aar 
+*** 10bf81265ad87424d946598c575f45a0 replaces 05a923f76f8a1493b88913f0d29a7f72 at path packages/com.unity.ads@1.0.7/editor/resources/editor/landscape.jpg 
+*** 1b32bcce201b4494ea8848326290c5d5 replaces 8af0e4842a6e74ff0be4573b662ecdc3 at path packages/com.unity.ads@1.0.7/editor/resources/editor/portrait.jpg 
+*** 7927683d1fc5848b5abfb54ebb1028ec replaces 05a5f3923a8f141dcbae6c83beefb16a at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsinapppurchasemetadata.h 
+*** 1322fd896bbb15bb6e335591b766ae62 replaces 3df6d6883928d4593a9c4d04bdb368d3 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsjsonstorage.h 
+*** b52e557db2c2b4eebb10444f1d582029 replaces 6691fabfba49b46cb973d2303205310f at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsmediationmetadata.h 
+*** 86c008322e7c647149878156c5b81940 replaces e156dfad2867a499e8da960e939cfd9f at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsmetadata.h 
+*** 453f100e6bdae4dfd9e655927819dc85 replaces aa92e5c9c4f3942f8a5a16106bf73f72 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsplayermetadata.h 
+*** c99bfe4fc4e5c4dc3917c14075acd117 replaces 2fa98e7ea8c344be48a0d0bc2964b362 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/unityads.h 
+*** a6842a74831964edc8fefa1c0aed89dc replaces 5a29d2eb1b28744d2b99295d9261471d at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/unityadsextended.h 
+*** ce4395ccdb12cf62fca756358be1a892 replaces 86dab5b8812f04d63a60330210d0859e at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/unityadsunitydelegate.h 
+*** cc1b50b5501f748da8bec762294d9136 replaces 32cf7680f5e834d449b72e939bd72a0e at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/info.plist 
+*** c5ba7626a737840ff88a3bd84b100482 replaces f297d5cfa2eed4173bd5f594b332ee4d at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/modules/module.modulemap 
+*** d1c1a2d988f5148fd9ab17b2460d271e replaces 359e83f25429a41969fb1e90e28ce959 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/unityads 
+*** a342381d77833427fa10621e38fbae10 replaces 6efb1f68878834061a312936dae93c1f at path packages/com.unity.ads@1.0.7/editor/unityeditor.advertisements.dll 
+*** 6597c6ea86d36477081342001145d8d9 replaces 714131750f6c34c25a0bf5ba29146ae8 at path packages/com.unity.ads@1.0.7/editor/unityeditor.advertisements.dll.mdb 
+*** 4c6fe94acbb24417c988bab18cbd5209 replaces b0b39659d13a448f588b73a24482a37b at path packages/com.unity.ads@1.0.7/license.md 
+*** 62772aad98ed04f0d955b7d20de61f7f replaces f32a5a564f4c0435091e2244e8f53fdb at path packages/com.unity.ads@1.0.7/readme.md 
+*** adab7787bd7d44c4a9d48b3aff189c47 replaces b6e1ba407791945f9b095a2eeb10048e at path packages/com.unity.ads@1.0.7/unityengine.advertisements.dll 
+*** c452c88a87f3d48ae945e7bcf1b4a6ba replaces 9efd58ef95a7a46d285f7269b9b49981 at path packages/com.unity.ads@1.0.7/unityengine.advertisements.dll.mdb 
+*** dced8f6ea9f964e8e8e61574ea889d21 replaces 1d35d313c94de4cd182b0531477d5aa2 at path packages/com.unity.ads@1.0.7/package.json 
+*** 224ede67b4f3a4109bfec4d5cb161b05 replaces 62f8339235f1342e7846804fc39b045a at path packages/com.unity.analytics@1.0.1/editor/unityeditor.analytics.dll 
+*** fec197bad419341558f81f2ec8a05e18 replaces 5887c5feab5ab4090958adf4ce79447a at path packages/com.unity.analytics@1.0.1/editor/unityeditor.analytics.dll.mdb 
+*** 15be9c691b85a41a39c18bee2f87e21b replaces 390b15df5977f4a1e9864ba1aae61f65 at path packages/com.unity.analytics@1.0.1/license.md 
+*** 2eb2d0388ed974b3cba47458803bd275 replaces f8bfbd86381614c269694fa4eb895950 at path packages/com.unity.analytics@1.0.1/readme.md 
+*** 220224b43fc464c28bc0e8de8f54a432 replaces 28ce64deb93a34c5ab3a90273b5d16de at path packages/com.unity.analytics@1.0.1/unityengine.analytics.dll 
+*** d607a67dc772b484da060e66a3d61a4e replaces e01db36396927421dba8ae69eb373476 at path packages/com.unity.analytics@1.0.1/unityengine.analytics.dll.mdb 
+*** 510d1d319d2754ea4a47c6dd8c421ea0 replaces c9d9babd0db4e45d3b743a42a5cfb3b2 at path packages/com.unity.analytics@1.0.1/package.json 
+*** f1045c695c5bf4fb7b8509687bc60fc0 replaces 809662ef96bf0408ab8274d1ec157845 at path packages/com.unity.purchasing@1.0.1/editor/unityeditor.purchasing.dll 
+*** 9de9e8523c82543c5b3e40a4b51aa2c9 replaces e78690df3da004690b4e44b8f2d7e100 at path packages/com.unity.purchasing@1.0.1/editor/unityeditor.purchasing.dll.mdb 
+*** 65d58d50c3db54f979b1ffae3777d74b replaces 2adbd7a5dcc284df593877e199aa2bca at path packages/com.unity.purchasing@1.0.1/license.md 
+*** 90791303b72ec4ae198f99d637dfdf6c replaces 323c82e8ce99a4e338ccb7bee96d1ba6 at path packages/com.unity.purchasing@1.0.1/readme.md 
+*** b5f4343795a0e4626ac1fe4a9e6fce59 replaces dad1f5f8495f947bc80e977f3c04a89b at path packages/com.unity.purchasing@1.0.1/unityengine.purchasing.dll 
+*** 86c18994495874297b469aaa57ef9b44 replaces 4d68d691ee10044168da431269bb7c1e at path packages/com.unity.purchasing@1.0.1/unityengine.purchasing.dll.mdb 
+*** 44f39a74ca5ee4bf5936b17e901f251c replaces b6df9f942116d4149bf9a7b15ad81a50 at path packages/com.unity.purchasing@1.0.1/package.json 
+Refresh: elapses 1.135477 seconds
+Refresh: trashing asset b6e1ba407791945f9b095a2eeb10048e
+Refresh: trashing asset 6ce47170cdb1845caae9f43833df6caa
+Refresh: trashing asset 32cf7680f5e834d449b72e939bd72a0e
+Refresh: trashing asset 3c66ccc00bfc94bdeb2cedc85e04da21
+Refresh: trashing asset 32477711fb29f4310a1ad6b14bfb2038
+Refresh: trashing asset 4d68d691ee10044168da431269bb7c1e
+Refresh: trashing asset efa9ab52baa0f4ad9ace1e242f47beac
+Refresh: trashing asset 506253728861d4c3d878b7084a92c877
+Refresh: trashing asset ed6e62820a93c4e9db11bf98439fcf35
+Refresh: trashing asset 62f8339235f1342e7846804fc39b045a
+Refresh: trashing asset 05a5f3923a8f141dcbae6c83beefb16a
+Refresh: trashing asset 25abcde2469eb4ace8f7fc18c526be74
+Refresh: trashing asset 359e83f25429a41969fb1e90e28ce959
+Refresh: trashing asset 0b49f21350d124a0e83ce3cefde8afda
+Refresh: trashing asset 1d35d313c94de4cd182b0531477d5aa2
+Refresh: trashing asset 6f6ccf1390de7480dba548eef57e2efd
+Refresh: trashing asset e01db36396927421dba8ae69eb373476
+Refresh: trashing asset 576b0104707de45398d908a89055eacb
+Refresh: trashing asset 1abfba14a1d3442329d0a74bccf2fd72
+Refresh: trashing asset 82e71f4404d2346ce93be3da39bfb59b
+Refresh: trashing asset 8af0e4842a6e74ff0be4573b662ecdc3
+Refresh: trashing asset 723f9194762da430f85d069c41b14ef0
+Refresh: trashing asset ae511c943896c49a1a4c9297f0568d0d
+Refresh: trashing asset b6df9f942116d4149bf9a7b15ad81a50
+Refresh: trashing asset 714131750f6c34c25a0bf5ba29146ae8
+Refresh: trashing asset d0638895152454adca70bf9cfd0d62cd
+Refresh: trashing asset 7c3098956044442468934d8ab363334b
+Refresh: trashing asset 2adbd7a5dcc284df593877e199aa2bca
+Refresh: trashing asset a777b9e5531fc4ec8bb167be7e16cdd0
+Refresh: trashing asset 4da49c26996da4f388fe57d0c5d4fa55
+Refresh: trashing asset f32a5a564f4c0435091e2244e8f53fdb
+Refresh: trashing asset f8bfbd86381614c269694fa4eb895950
+Refresh: trashing asset 6bcbe1a6fd56c40e980781b20dad7225
+Refresh: trashing asset 8f1227b63e65949bb99ddc7bb9a3fee3
+Refresh: trashing asset d09a9727c35524abc95741ca67293eb6
+Refresh: trashing asset 9f879467480e7453891dbfdbf79db78f
+Refresh: trashing asset 699cc1a7eea2d4f48b6f8b3969f34ef4
+Refresh: trashing asset 6b57b7b772567441187ae5d66d704832
+Refresh: trashing asset 05a923f76f8a1493b88913f0d29a7f72
+Refresh: trashing asset d8eedaf741e8741019007fe2927efde2
+Refresh: trashing asset 827de848d96b74b2e9e37cb630cff61f
+Refresh: trashing asset 6efb1f68878834061a312936dae93c1f
+Refresh: trashing asset 3df6d6883928d4593a9c4d04bdb368d3
+Refresh: trashing asset 86dab5b8812f04d63a60330210d0859e
+Refresh: trashing asset 323c82e8ce99a4e338ccb7bee96d1ba6
+Refresh: trashing asset dad1f5f8495f947bc80e977f3c04a89b
+Refresh: trashing asset b0b39659d13a448f588b73a24482a37b
+Refresh: trashing asset 8e4969796f140448a8a3822fb2925b7b
+Refresh: trashing asset aa92e5c9c4f3942f8a5a16106bf73f72
+Refresh: trashing asset b0b6ef0a2eee4403db79386e15051946
+Refresh: trashing asset 8504b61a9ec6f4c50a77a3cc6ed2ba26
+Refresh: trashing asset d691919a2cb91469c9e8845bd7332f3f
+Refresh: trashing asset 737a3d9b5ddfb4b8ab6a4d31e3880ece
+Refresh: trashing asset f54333cbb0bb3436f8736ef47a7d0585
+Refresh: trashing asset 5a29d2eb1b28744d2b99295d9261471d
+Refresh: trashing asset a93bb6fb98a3e4e0a99c66945a44e774
+Refresh: trashing asset a28d421c3a21843d9ac0daadb56db525
+Refresh: trashing asset 8315a76cf064148dcbc3bc7483077ef8
+Refresh: trashing asset 777a52ec8dace43d3a681208400c52ad
+Refresh: trashing asset 02fd710d1be554cb6847bf66bbef9328
+Refresh: trashing asset 05abfa1df78f6418c893c04c85fa35f8
+Refresh: trashing asset 9006853d42a254166a916fbc9423d69c
+Refresh: trashing asset 6ec6eaad4302142b587656b8bdcedbe4
+Refresh: trashing asset e156dfad2867a499e8da960e939cfd9f
+Refresh: trashing asset c9d9babd0db4e45d3b743a42a5cfb3b2
+Refresh: trashing asset 613705cddd4664d0aa51a2bfb713506f
+Refresh: trashing asset e595b9fd1539a4f2daf32e2d19dd0f53
+Refresh: trashing asset f773330e96ff94d4794d917a419fe88f
+Refresh: trashing asset 8a626c0ede01544e8a1a7f884ac37d46
+Refresh: trashing asset 1a0d8d6e284e643f08eadaa83ab55dc4
+Refresh: trashing asset 2fa98e7ea8c344be48a0d0bc2964b362
+Refresh: trashing asset 605e17beb234b44f4b3b9f7065123f8f
+Refresh: trashing asset 252476ce20d2a47e1bd7482290f4a2b0
+Refresh: trashing asset 28ce64deb93a34c5ab3a90273b5d16de
+Refresh: trashing asset 5887c5feab5ab4090958adf4ce79447a
+Refresh: trashing asset c830210f2700a4cb09bab7cf769718f6
+Refresh: trashing asset 22190e1f8f08c42b8b457cf1dc73494b
+Refresh: trashing asset 5f2d407f5b4af41a59193e0f8f7a7a7f
+Refresh: trashing asset 6691fabfba49b46cb973d2303205310f
+Refresh: trashing asset f297d5cfa2eed4173bd5f594b332ee4d
+Refresh: trashing asset e78690df3da004690b4e44b8f2d7e100
+Refresh: trashing asset cbcdd1dfa32e8416995aadcddb76d1aa
+Refresh: trashing asset 390b15df5977f4a1e9864ba1aae61f65
+Refresh: trashing asset 46e56cdf639644ec2bf9c2cf0763c15a
+Refresh: trashing asset 809662ef96bf0408ab8274d1ec157845
+Refresh: trashing asset 9efd58ef95a7a46d285f7269b9b49981
+Refresh: trashing asset 1a9371ff11a774c98bb9f8a6eb243986
+Updating Assets - GUID: 00000000000000001000000000000000...
+ done. [Time: 232.153263 ms] 
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.7 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 379.
+Total: 5.867268 ms (FindLiveObjects: 0.139296 ms CreateObjectMapping: 0.008240 ms MarkObjects: 5.695129 ms  DeleteObjects: 0.020918 ms)
+
+Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
+ done. [Time: 11.276995 ms] 
+Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
+ done. [Time: 16.189128 ms] 
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 14.759464 ms] 
+Updating ProjectSettings/NavMeshAreas.asset - GUID: 00000000000000004100000000000000...
+ done. [Time: 13.041012 ms] 
+Updating Library/BuildPlayer.prefs - GUID: 00000000000000005000000000000000...
+ done. [Time: 68.139513 ms] 
+Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
+ done. [Time: 4.131589 ms] 
+Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
+Audio: FMOD Profiler initialized on port 54900
+ done. [Time: 16.967184 ms] 
+Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
+ done. [Time: 5.485949 ms] 
+Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
+ done. [Time: 4.100548 ms] 
+Updating ProjectSettings/ClusterInputManager.asset - GUID: 00000000000000007100000000000000...
+ done. [Time: 6.454127 ms] 
+Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
+ done. [Time: 6.970903 ms] 
+Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
+ done. [Time: 6.294717 ms] 
+Updating ProjectSettings/NetworkManager.asset - GUID: 0000000000000000a000000000000000...
+ done. [Time: 4.037983 ms] 
+Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
+ done. [Time: 12.704665 ms] 
+Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
+ done. [Time: 15.077303 ms] 
+Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
+ done. [Time: 19.264537 ms] 
+Updating Assets/Editor - GUID: 34ada09dcb6de904aa58a4f21b21995b...
+ done. [Time: 20.668023 ms] 
+Updating Packages/com.unity.ads@1.0.7 - GUID: 4ca706e0c8656421fa9fe9e4a8fa77c7...
+ done. [Time: 18.310776 ms] 
+Updating Packages/com.unity.purchasing@1.0.1 - GUID: 77647c085bbeb4f71b256fd3e2187a87...
+ done. [Time: 18.388367 ms] 
+Updating Packages/com.unity.analytics@1.0.1 - GUID: 980c24f827b834c888bbbb21b36958cd...
+ done. [Time: 24.553305 ms] 
+Updating Assets/Level.unity - GUID: aa4e108d95b13d74eb8ff506d17e7a90...
+ done. [Time: 23.814836 ms] 
+Updating Assets/Materials - GUID: d690e4d93fa422f4b826e765a0fde091...
+ done. [Time: 15.549262 ms] 
+Updating Packages/com.unity.analytics@1.0.1/License.md - GUID: 15be9c691b85a41a39c18bee2f87e21b...
+ done. [Time: 577.327896 ms] 
+Updating Packages/com.unity.analytics@1.0.1/README.md - GUID: 2eb2d0388ed974b3cba47458803bd275...
+ done. [Time: 58.213466 ms] 
+Updating Packages/com.unity.ads@1.0.7/License.md - GUID: 4c6fe94acbb24417c988bab18cbd5209...
+ done. [Time: 59.817727 ms] 
+Updating Packages/com.unity.ads@1.0.7/README.md - GUID: 62772aad98ed04f0d955b7d20de61f7f...
+ done. [Time: 40.644100 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/License.md - GUID: 65d58d50c3db54f979b1ffae3777d74b...
+ done. [Time: 60.613096 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll.mdb - GUID: 86c18994495874297b469aaa57ef9b44...
+ done. [Time: 216.096352 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/README.md - GUID: 90791303b72ec4ae198f99d637dfdf6c...
+ done. [Time: 18.024838 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor - GUID: a37e18887fa954edf92bc36bc353b879...
+ done. [Time: 13.370207 ms] 
+Updating Packages/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll.mdb - GUID: c452c88a87f3d48ae945e7bcf1b4a6ba...
+ done. [Time: 18.178516 ms] 
+Updating Packages/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll.mdb - GUID: d607a67dc772b484da060e66a3d61a4e...
+ done. [Time: 20.230370 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/Editor - GUID: d929147d9f78c487397abb40f2c257b0...
+ done. [Time: 31.195568 ms] 
+Updating Packages/com.unity.analytics@1.0.1/Editor - GUID: f0f8d67297461495185169157c24c66b...
+ done. [Time: 63.442836 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll.mdb - GUID: 6597c6ea86d36477081342001145d8d9...
+ done. [Time: 50.817931 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources - GUID: 7c3a5d6e39b874f468b2691537168513...
+ done. [Time: 132.425698 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll.mdb - GUID: 9de9e8523c82543c5b3e40a4b51aa2c9...
+ done. [Time: 51.235485 ms] 
+Updating Packages/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll.mdb - GUID: fec197bad419341558f81f2ec8a05e18...
+ done. [Time: 58.167873 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Android - GUID: 48986928cc2a449dbaecdd1654bc9bf6...
+ done. [Time: 13.567704 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS - GUID: 4f234578336894dc081edf696f2ff5f2...
+ done. [Time: 14.824074 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Editor - GUID: 99ddb49592ff84811804420a1910cb89...
+ done. [Time: 22.389858 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds - GUID: 2d4d46c70fdd242668a56e99799e8540...
+ done. [Time: 7.691623 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Android/builds - GUID: f28fcced5af094cf78eb4e1109a71981...
+ done. [Time: 7.894261 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework - GUID: eeed6954b3c264ca0b28a92aa6289bf0...
+ done. [Time: 5.514374 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Modules - GUID: 3cebe1a96232b44388b30b2f72dde434...
+ done. [Time: 4.838730 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers - GUID: 6e7c8cfeedae74eb3a562055e069e441...
+ done. [Time: 3.459288 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist - GUID: cc1b50b5501f748da8bec762294d9136...
+ done. [Time: 188.828246 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds - GUID: d1c1a2d988f5148fd9ab17b2460d271e...
+ done. [Time: 19.398571 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h - GUID: 1322fd896bbb15bb6e335591b766ae62...
+ done. [Time: 203.941822 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h - GUID: 453f100e6bdae4dfd9e655927819dc85...
+ done. [Time: 42.278254 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h - GUID: 7927683d1fc5848b5abfb54ebb1028ec...
+ done. [Time: 35.365095 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h - GUID: 86c008322e7c647149878156c5b81940...
+ done. [Time: 22.133681 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h - GUID: a6842a74831964edc8fefa1c0aed89dc...
+ done. [Time: 23.882839 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h - GUID: b52e557db2c2b4eebb10444f1d582029...
+ done. [Time: 12.614021 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap - GUID: c5ba7626a737840ff88a3bd84b100482...
+ done. [Time: 256.553533 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h - GUID: c99bfe4fc4e5c4dc3917c14075acd117...
+ done. [Time: 10.833035 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h - GUID: ce4395ccdb12cf62fca756358be1a892...
+ done. [Time: 14.091706 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/OSXUniversal/AudioPluginOculusSpatializer.bundle - GUID: 32188fd89022c154c81befa2f0e00be0...
+ done. [Time: 11.067764 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/OSXUniversal/OVRPlugin.bundle - GUID: 5782f9e9e6e0bb94bac99aeea24814fc...
+ done. [Time: 46.622254 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/OSXUniversal/openvr_api.bundle - GUID: d33d54853fd0f48e0ac8a63ea91e6626...
+ done. [Time: 7.460724 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll - GUID: 12fd8a0055b84bb59e84c9835a37e333...
+ done. [Time: 136.758575 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll - GUID: 1c6d1fbb51834b64847b1b73a75bfc77...
+ done. [Time: 51.423125 ms] 
+Updating Packages/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll - GUID: 220224b43fc464c28bc0e8de8f54a432...
+ done. [Time: 23.235870 ms] 
+Updating Packages/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll - GUID: 224ede67b4f3a4109bfec4d5cb161b05...
+ done. [Time: 124.091227 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll - GUID: 3a84de5cd0624681b6b6dcd8921d912a...
+ done. [Time: 30.159051 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll - GUID: 4113173d5e95493ab8765d7b08371de4...
+ done. [Time: 56.340444 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll - GUID: 4a3ecb1425d14502837abea459cf2b70...
+ done. [Time: 28.199603 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll - GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8...
+ done. [Time: 109.558710 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll - GUID: 4ba2329b63d54f0187bcaa12486b1b0f...
+ done. [Time: 17.332330 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll - GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1...
+ done. [Time: 226.947373 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll - GUID: 5f32cd94baa94578a686d4b9d6b660f7...
+ done. [Time: 70.696155 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll - GUID: 6a10b2909283487f913b00d94cd3faf5...
+ done. [Time: 117.273276 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll - GUID: 7668179ede524d6396c8b7d84461ea29...
+ done. [Time: 103.422250 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll - GUID: 80a3616ca19596e4da0f10f14d241e9f...
+ done. [Time: 101.407898 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll - GUID: 844f815391db42d49455cbf1a7bfc434...
+ done. [Time: 120.243391 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll - GUID: 870353891bb340e2b2a9c8707e7419ba...
+ done. [Time: 71.639513 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll - GUID: a342381d77833427fa10621e38fbae10...
+ done. [Time: 29.215686 ms] 
+Updating Packages/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll - GUID: adab7787bd7d44c4a9d48b3aff189c47...
+ done. [Time: 56.267443 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll - GUID: adebbd281f1a4ef3a30be7f21937e02f...
+ done. [Time: 38.881068 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll - GUID: b5da970776034f77a070d99423d68791...
+ done. [Time: 25.965640 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll - GUID: b5f4343795a0e4626ac1fe4a9e6fce59...
+ done. [Time: 34.090230 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll - GUID: b8a0574e92bd43a59e19d6c3c6ae54c7...
+ done. [Time: 50.054389 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll - GUID: c768acbc9cf24d398488bb4c93b91288...
+ done. [Time: 61.826178 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll - GUID: dc443db3e92b4983b9738c1131f555cb...
+ done. [Time: 127.621852 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll - GUID: e4f4cf1b9b434137a499903a7a1d651a...
+ done. [Time: 77.360519 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll - GUID: ead147da21254ff9a0a936bdd75e1680...
+ done. [Time: 49.107404 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll - GUID: ed7343f30e3843b3afda8f8b02669cea...
+ done. [Time: 32.538597 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll - GUID: f1045c695c5bf4fb7b8509687bc60fc0...
+ done. [Time: 42.887156 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll - GUID: f5f67c52d1564df4a8936ccd202a3bd8...
+ done. [Time: 126.128706 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll - GUID: f70555f144d8491a825f0804e09c671c...
+ done. [Time: 255.877014 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll - GUID: f7b54ff4a43d4fcf81b4538b678e0bcc...
+ done. [Time: 30.102093 ms] 
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 9.24 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 143.55 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.078325s.
+Native extension for OSXStandalone target not found
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll - GUID: 405b9b51bb344a128608d968297df79c...
+ done. [Time: 57.238032 ms] 
+Updating Assets/Fleet.cs - GUID: 0a487fc784c6c8a4bb2ada5b7c02b975...
+ done. [Time: 195.685602 ms] 
+Updating Assets/Waver.cs - GUID: 542370792b459d44183880a99f6a176d...
+ done. [Time: 33.040330 ms] 
+Updating Assets/WaveDebugger.cs - GUID: 615cb96bc0700404d9f64a5e796dff5c...
+ done. [Time: 15.756757 ms] 
+Updating Assets/GridGenerator.cs - GUID: 75c59dfa079f7b040885aa47aaf1b5f3...
+ done. [Time: 19.750618 ms] 
+Updating Assets/Boat.cs - GUID: 8e306f8315a0aff4caf32236b249196c...
+ done. [Time: 12.377986 ms] 
+Updating Assets/Editor/WebGLBuilder.cs - GUID: 9339990738cca00419808051cd88941d...
+ done. [Time: 9.513529 ms] 
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 7 milliseconds
+Pass: 1 took 9 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.080166s.
+Native extension for OSXStandalone target not found
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Editor/landscape.jpg - GUID: 10bf81265ad87424d946598c575f45a0...
+ done. [Time: 1511.279143 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Editor/portrait.jpg - GUID: 1b32bcce201b4494ea8848326290c5d5...
+ done. [Time: 1125.750019 ms] 
+Updating Assets/Materials/stair_Cloner_marche_4Mat.mat - GUID: 04e53d42600a8f0498bf16ca4dc8bb56...
+ done. [Time: 189.706410 ms] 
+Updating Assets/Materials/stair_1_Cloner1_marche2_4Mat.mat - GUID: 198bf0455162409429771e69d30d7c48...
+ done. [Time: 34.552478 ms] 
+Updating Assets/Materials/m_t_1_Cylinder2Mat.mat - GUID: 1dc69ec418730744fb1b7d57532cf2f6...
+ done. [Time: 39.910304 ms] 
+Updating Assets/Materials/stair_1_Cloner1_marche2_3Mat.mat - GUID: 22288a9227ad8704c8456735a953f1d4...
+ done. [Time: 23.833944 ms] 
+Updating Assets/Materials/human_refMat.mat - GUID: 26630cb6aed04d24b93c6ea63ed0982b...
+ done. [Time: 17.357040 ms] 
+Updating Assets/Materials/m_t_1_wooden_voile1_Cylinder_21Mat.mat - GUID: 3bec8e47e4a2518448089f2c07841cf9...
+ done. [Time: 16.470870 ms] 
+Updating Assets/Materials/stair_plnache21Mat.mat - GUID: 3ca96162258a82b40870b0e0bc82eeb8...
+ done. [Time: 25.234630 ms] 
+Updating Assets/Materials/stair_Cloner_marche_11Mat.mat - GUID: 3ef757b6814f66146bc86fdde0e89665...
+ done. [Time: 23.937317 ms] 
+Updating Assets/Materials/m_t_wooden_voile_Cylinder6Mat.mat - GUID: 436dd37fa8f32d744a45e60552724284...
+ done. [Time: 18.492660 ms] 
+Updating Assets/Materials/stair_Cloner_marche_3Mat.mat - GUID: 49acb0ed14f4f91418a7166fe013ae6d...
+ done. [Time: 16.667465 ms] 
+Updating Assets/Materials/Cylinder4Mat.mat - GUID: 4f27c0a33e6d1ca418eb4bdb3961a9a6...
+ done. [Time: 35.887027 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_13Mat.mat - GUID: 5444ad260a51d2f4497c7cd13fb99bbb...
+ done. [Time: 14.831920 ms] 
+Updating Assets/Materials/stair_1_Cloner1_marche_21Mat.mat - GUID: 67e6cdcf6311fea4394979dc5d3e1950...
+ done. [Time: 12.229752 ms] 
+Updating Assets/Water.mat - GUID: 6b4147c5a8eea1840bf49a8945f26d8b...
+ done. [Time: 27.205851 ms] 
+Updating Assets/Materials/stair_1_plnache2Mat.mat - GUID: 779d0db6e2512234091f44fd9ee2f51a...
+ done. [Time: 18.227316 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_8Mat.mat - GUID: 77b73ad6220a77c44b7b3a7e91bff73a...
+ done. [Time: 17.546814 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_9Mat.mat - GUID: 784609dc7fd7d1d41b7b2e2b9cb471a4...
+ done. [Time: 18.573097 ms] 
+Updating Assets/Materials/stair_plancheMat.mat - GUID: 7ecd3c06cddba6243b113ec53ebc89c7...
+ done. [Time: 20.395331 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_11Mat.mat - GUID: 84a94179672431c45a63c456240bba89...
+ done. [Time: 21.108789 ms] 
+Updating Assets/Materials/stair_1_Cloner1_marche_1Mat.mat - GUID: 87554f300aad22b49b440a2e4b380b81...
+ done. [Time: 27.355785 ms] 
+Updating Assets/Materials/batoMat.mat - GUID: 8afe738bb4222104cbbf29f7f8820dab...
+ done. [Time: 14.914327 ms] 
+Updating Assets/Materials/m_t_voileMat.mat - GUID: 8b0540705d3710043bf7badbd65ba606...
+ done. [Time: 16.786750 ms] 
+Updating Assets/Materials/stair_Cloner_marche_5Mat.mat - GUID: 8e2e4c0e4a86ea74a871cd0a7e5dc620...
+ done. [Time: 14.614723 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_7Mat.mat - GUID: 992ebcba3d4ddd246891f71fdf1cef3d...
+ done. [Time: 21.233648 ms] 
+Updating Assets/Materials/m_t_CylinderMat.mat - GUID: 9c8b7c2c3df6bf04db27f83993f5a8fd...
+ done. [Time: 14.939631 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_12Mat.mat - GUID: 9ead118628aa1c84a81039d234057489...
+ done. [Time: 13.659129 ms] 
+Updating Assets/Materials/m_t_voile_1Mat.mat - GUID: a13bbe89e21235045b4a580b310dd76b...
+ done. [Time: 17.878207 ms] 
+Updating Assets/Materials/Cube_1Mat.mat - GUID: a72cdcd730a935c4bb2bcf793a44d61b...
+ done. [Time: 13.781331 ms] 
+Updating Assets/Materials/m_t_wooden_voile_Cylinder_2Mat.mat - GUID: a97c6f72c92a5c14fb644a1b1727cb5c...
+ done. [Time: 18.489071 ms] 
+Updating Assets/Materials/stair_1_Cloner1_marche2_5Mat.mat - GUID: a9c21ce291eced84c9d0d84022d73bfa...
+ done. [Time: 14.866934 ms] 
+Updating Assets/Materials/m_t_wooden_voile_1_Cylinder1Mat.mat - GUID: b30f689bc4f575549aeefc873180427f...
+ done. [Time: 20.871258 ms] 
+Updating Assets/Materials/m_t_Cylinder_1Mat.mat - GUID: bf335b6e679fad845a1d68439f0c81cb...
+ done. [Time: 24.121248 ms] 
+Updating Assets/Materials/m_t_1_wooden_voile1_voile_2Mat.mat - GUID: c66089879cfa8e843bda808706af0570...
+ done. [Time: 16.912585 ms] 
+Updating Assets/Materials/stair_1_planche1Mat.mat - GUID: d1c1d52395eecfe4e9886681f1aa6eb4...
+ done. [Time: 19.776441 ms] 
+Updating Assets/WaveDebbuger.mat - GUID: d6ecdc0274dd3b244b692b8eab6ff296...
+ done. [Time: 15.142689 ms] 
+Updating Assets/Materials/PlaneMat.mat - GUID: d8b954fe5664c894080b4c32ab4c6d2d...
+ done. [Time: 17.092090 ms] 
+Updating Assets/Materials/stair_Cloner_marche_2Mat.mat - GUID: d9fcbd713ee1b694cab087ebb9dca482...
+ done. [Time: 22.800553 ms] 
+Updating Assets/Materials/m_t_1_Cylinder3Mat.mat - GUID: dd6fa16870436bf4bb2cdedca8f887de...
+ done. [Time: 20.202091 ms] 
+Updating Assets/Materials/m_t_wooden_voile_1_Cylinder_22Mat.mat - GUID: e6d6b47b742e588488e8f2661841b339...
+ done. [Time: 22.992457 ms] 
+Updating Assets/Materials/stair_Cloner_marche_6Mat.mat - GUID: eb2f520b8c914e04fb4dbda14523f7fb...
+ done. [Time: 18.905434 ms] 
+Updating Assets/Materials/stair_Cloner_marche_01Mat.mat - GUID: ed459ce94c4c675409c1c8fb17a07138...
+ done. [Time: 23.935039 ms] 
+Updating Assets/Materials/stair_Cloner_marche2_10Mat.mat - GUID: ee056902eaf733944a29710f1416d3a1...
+ done. [Time: 24.192973 ms] 
+Updating Assets/Materials/stair_1_Cloner1_marche_0Mat.mat - GUID: fad0b8d2feadd924da050a4a7a51c276...
+ done. [Time: 21.572510 ms] 
+Updating Assets/Materials/m_t_1_wooden_voile1_Cylinder5Mat.mat - GUID: fed7e9a7fbd2db74ea3f22c7c4eebd45...
+ done. [Time: 67.752637 ms] 
+Updating /Users/travis/build/oktomus/boat/UnityPackageManager/manifest.json - GUID: 0000000000000000e100000000000000...
+ done. [Time: 20.514408 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Android/libAudioPluginOculusSpatializer.so - GUID: 0d3bb855445e36e479c85976fc88383a...
+ done. [Time: 9.377834 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Win/OVRPlugin.dll - GUID: 21eff446d50eaf44a85985cd4c0b6fa1...
+ done. [Time: 7.918103 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Win64/AudioPluginOculusSpatializer.dll - GUID: 2682a692a2be7e14e901a738c7806da0...
+ done. [Time: 8.220165 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Tango/Android/libtango_3d_reconstruction_api.aar - GUID: 30aa2886e2b748d48fbe4b155c65025f...
+ done. [Time: 7.877331 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Win64/openvr_api.dll - GUID: 328cc881519068e4eb7db4bb907ad2d9...
+ done. [Time: 9.343098 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Android/gvr.aar - GUID: 38c8faf1788024c02930a0c68a6e0edc...
+ done. [Time: 11.184054 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/package.json - GUID: 44f39a74ca5ee4bf5936b17e901f251c...
+ done. [Time: 11.693348 ms] 
+Updating Packages/com.unity.analytics@1.0.1/package.json - GUID: 510d1d319d2754ea4a47c6dd8c421ea0...
+ done. [Time: 9.811379 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Android/OVRPlugin.aar - GUID: 517af1b5b81b93b43b9745d58f017562...
+ done. [Time: 10.524695 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Tango/Android/unitygar.aar - GUID: 75799de484ac4f4cadc268d2cbea830a...
+ done. [Time: 13.897605 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Win/AudioPluginOculusSpatializer.dll - GUID: 8e7066e382b0fc749b25dbb1a3004dfe...
+ done. [Time: 23.595459 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Linux64/libopenvr_api.so - GUID: 9078b7128e594410d9b89e5b24cffd01...
+ done. [Time: 24.928738 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Android/libprotobuf-java-nano.jar - GUID: b2b693dffac3a4433b3114fea0b7fd4e...
+ done. [Time: 34.956654 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Win64/OVRPlugin.dll - GUID: b2bead50dbf86924f8e51f03ddbebf70...
+ done. [Time: 8.383797 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Android/builds/unity-ads.aar - GUID: b32abd1c9d73a4cce8389f084ac12b11...
+ done. [Time: 8.654173 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Win/openvr_api.dll - GUID: d91035c548f23744c9bfb107348ed1c0...
+ done. [Time: 7.773845 ms] 
+Updating Packages/com.unity.ads@1.0.7/package.json - GUID: dced8f6ea9f964e8e8e61574ea889d21...
+ done. [Time: 8.009896 ms] 
+Updating /applications/Unity/Unity.app/Contents/UnityExtensions/Unity/VR/Android/unitygvr.aar - GUID: e1007cd261c84053beb0c3537782908d...
+ done. [Time: 12.025702 ms] 
+Updating Assets/bato(1).obj - GUID: 813a8463d3c52284491f0e7ea8cdadc4...
+ done. [Time: 199.247825 ms] 
+Unloading 98 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.3 MB.
+System memory in use after: 249.9 MB.
+
+Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 2.475001 ms (FindLiveObjects: 0.063229 ms CreateObjectMapping: 0.019558 ms MarkObjects: 1.279430 ms  DeleteObjects: 1.111767 ms)
+
+Refreshing native plugins compatible for Editor in 17.99 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 55.69 ms.
+
+----- Total AssetImport time: 22.301448s, AssetImport time: 21.096391s, Asset hashing: 0.924441s [35.3 MB, 38.139778 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.007077 seconds (Nothing changed)
+Determining assets that need to be reimported for target platform ... 0.050041 seconds.
+
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (0 files)
+  file read: 0.000 seconds (0.000 MB)
+  hash: 0.000 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
+
+----- Total AssetImport time: 0.052053s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Warming cache for 166 main assets: 0.000928 seconds elapsed
+Initializing Unity extensions:
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ '/applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.007077 seconds (Nothing changed)
+Error building player because build target was unsupported
+ 
+(Filename:  Line: -1)
+
+Unloading 107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.2 MB.
+System memory in use after: 269.3 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 5.277206 ms (FindLiveObjects: 0.279646 ms CreateObjectMapping: 0.040353 ms MarkObjects: 4.909434 ms  DeleteObjects: 0.044973 ms)
+
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.167777 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 700008da6000 -> priority: 1 
+System memory in use before: 267.4 MB.
+System memory in use after: 267.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 6.111553 ms (FindLiveObjects: 0.361141 ms CreateObjectMapping: 0.037862 ms MarkObjects: 5.696004 ms  DeleteObjects: 0.014326 ms)
+
+
+*** Cancelled 'Build.Player.WebGLSupport' in 8 seconds (8073 ms)
+
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 6 milliseconds
+Pass: 1 took 3 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.66 ms.
+Mono: successfully reloaded assembly
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+
+----- Total AssetImport time: 0.125385s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+- Completed reload, in  1.781 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.066181s.
+Native extension for OSXStandalone target not found
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.012866 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006216 seconds (Nothing changed)
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!
