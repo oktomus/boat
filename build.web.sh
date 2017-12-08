@@ -1,6 +1,5 @@
 #! /bin/sh
 
-set -x
 
 project="boat"
 UNITY="${UNITY:-/applications/Unity/Unity.app/Contents/MacOS/Unity}"
@@ -25,6 +24,7 @@ $UNITY \
 	-batchmode \
 	-nographics \
 	-logFile $LOGFILE \
+	-projectPath $(pwd) \
     -executeMethod WebGLBuilder.build
 
 echo "Unity execution finished."
