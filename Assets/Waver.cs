@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(GridGenerator))]
 public class Waver : MonoBehaviour {
 
 	public float lowDeepness = 0.2f;

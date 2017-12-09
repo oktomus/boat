@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(MeshFilter), typeof(MeshRenderer)), 
-	RequireComponent(typeof(Waver)),
-	RequireComponent(typeof(MeshCollider))]
+[RequireComponent(typeof(MeshFilter), typeof(MeshRenderer)), RequireComponent(typeof(MeshCollider))]
 public class GridGenerator : MonoBehaviour {
 
 	public int rows;
@@ -20,10 +18,9 @@ public class GridGenerator : MonoBehaviour {
 	private Vector2[] uvs;
 	private int [] triangles;
 	private Mesh mesh;
-	private Waver waver;
+	public Waver waver;
 
 	void Start () {
-
 	}
 
 	private void Awake(){
@@ -61,7 +58,6 @@ public class GridGenerator : MonoBehaviour {
 	private void Generate(){
 		regenerate = false;
 		GetComponent<MeshFilter> ().mesh = mesh = new Mesh();
-		waver = GetComponent<Waver> ();
 		mesh.name = "Flat procedural grid";
 
 		int ptAmount = rows * columns * 6;
