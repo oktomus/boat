@@ -8,21 +8,23 @@ public class BoatSpawner : MonoBehaviour {
 	public GameObject indicator;
 	public float minDistance = 1.2f;
 	public GameObject boat;
+	public GameObject grid;
 	public Waver waver;
-	public int rayLayerMask;
 
 	private Vector3 spawnPosition;
 	private bool spawn = false;
 	private Fleet fleet;
-	private SpriteRenderer spRender;
-	private int layerMask;
+	private Renderer spRender;
+	private Collider gridCollider;
+	private Color matColor;
 
 	// Use this for initialization
 	void Start () {
 		//indicator.getC
 		fleet = GetComponent<Fleet>();
-		spRender = indicator.GetComponent<SpriteRenderer> ();
-		layerMask = 1 << rayLayerMask;
+		spRender = indicator.GetComponent<Renderer> ();
+		gridCollider = grid.GetComponent<Collider> ();
+		matColor = new Color (1, 1, 1, 1);
 		
 	}
 	
@@ -30,7 +32,7 @@ public class BoatSpawner : MonoBehaviour {
 	void FixedUpdate () {
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
-		if (Physics.Raycast (ray, out hit, layerMask)) {			
+		if (gridCollider.Raycast (ray, out hit, 100.0F)) {			
 			spRender.enabled = true;
 			spawn = true;
 			// Check if the point isnt near other boats
@@ -43,16 +45,15 @@ public class BoatSpawner : MonoBehaviour {
 			// Add it
 
 			spawnPosition = hit.point;
+			//spawnPosition.y = waver.Height (spawnPosition.x, spawnPosition.z);
 //			fleet.boats.Add(Instantiate(boat, hit.point, new Quaternion()));
 			if (spawn) {
-				spRender.color = new Color (1, 1, 1);
+				matColor.r = matColor.g = matColor.b = 1;
 			} else {
-				spRender.color = new Color (1, 0, 0);
+				matColor.g = matColor.b = 0;
+				matColor.r = 1;
 			}
-			indicator.transform.position = new Vector3 (
-				spawnPosition.x,
-				waver.Height(spawnPosition.x, spawnPosition.z) + 0.05f,
-				spawnPosition.z);
+			indicator.transform.position = spawnPosition;
 
 			if (spawn && Input.GetMouseButtonUp (0)) {
 				GameObject b = Instantiate (boat, spawnPosition, boat.transform.rotation);
@@ -61,6 +62,7 @@ public class BoatSpawner : MonoBehaviour {
 		} else {
 			spRender.enabled = false;
 		}
+		spRender.material.SetColor ("_Color", matColor);
 
 	}
 }

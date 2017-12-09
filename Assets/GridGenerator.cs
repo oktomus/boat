@@ -21,6 +21,7 @@ public class GridGenerator : MonoBehaviour {
 	public Waver waver;
 
 	void Start () {
+		
 	}
 
 	private void Awake(){
@@ -99,9 +100,11 @@ public class GridGenerator : MonoBehaviour {
 		for (int i = 0; i < vertices.Length; ++i) {
 			vertices [i].y = waver.Height (vertices [i].x, vertices [i].z);
 		}
+		GetComponent<MeshCollider> ().sharedMesh = mesh;
 		mesh.vertices = vertices;
 		mesh.RecalculateNormals ();
 		mesh.RecalculateTangents ();
+		mesh.RecalculateBounds ();	
 
 	}
 
