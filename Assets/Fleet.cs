@@ -9,26 +9,31 @@ public class Fleet : MonoBehaviour {
 
 	public List<GameObject> boats;
 	public Waver waver;
+	public float initialXVelocity = 0.02F;
 
 
 	void Start () {
 		boats = new List<GameObject> ();
-		boats.Add(Instantiate(boat, new Vector3(0, 0), new Quaternion()));	
+		AddBoat (new Vector3 (0, 0));
+	}
+
+	public void AddBoat(Vector3 pos){
+		GameObject b = Instantiate (boat, pos, new Quaternion ());
+		b.AddComponent<Boat>();
+		boats.Add(b);	
+		
 	}
 	
-	void Update () {
-
-		foreach (GameObject b in boats) {
-			b.transform.position = new Vector3 (
-				b.transform.position.x,
-				waver.Height (b.transform.position.x, b.transform.position.z),
-				b.transform.position.z
-			);
+	void FixedUpdate () {
+		for(int i = boats.Count - 1; i >= 0; --i)
+		{
+			GameObject b = boats [i];
+			b.GetComponent<Boat> ().Move (waver);
+			if (b.transform.position.x > 5) {
+				boats.RemoveAt (i);
+				Destroy (b);
+			}
 		}
 	}
-
-	void OnMouseDown()
-	{
-
-	}
+		
 }

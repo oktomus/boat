@@ -29,7 +29,7 @@ public class BoatSpawner : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void FixedUpdate () {		
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 		if (gridCollider.Raycast (ray, out hit, 100.0F)) {			
@@ -56,8 +56,7 @@ public class BoatSpawner : MonoBehaviour {
 			indicator.transform.position = spawnPosition;
 
 			if (spawn && Input.GetMouseButtonUp (0)) {
-				GameObject b = Instantiate (boat, spawnPosition, boat.transform.rotation);
-				fleet.boats.Add (b);
+				fleet.AddBoat (spawnPosition);
 			}
 		} else {
 			spRender.enabled = false;

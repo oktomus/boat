@@ -1474,6 +1474,7 @@ MonoBehaviour:
   boat: {fileID: 100002, guid: 813a8463d3c52284491f0e7ea8cdadc4, type: 3}
   boats: []
   waver: {fileID: 367463091}
+  initialXVelocity: 0.02
 --- !u!4 &536041367
 Transform:
   m_ObjectHideFlags: 0
