@@ -217,6 +217,48 @@ ModelImporter:
     4300078: stair_Cloner_marche_6
     4300080: stair_planche
     4300082: stair_plnache21
+    6400000: bato
+    6400002: Cube_1
+    6400004: Cylinder4
+    6400006: human_ref
+    6400008: m_t_1_Cylinder2
+    6400010: m_t_1_Cylinder3
+    6400012: m_t_1_wooden_voile1_Cylinder5
+    6400014: m_t_1_wooden_voile1_Cylinder_21
+    6400016: m_t_1_wooden_voile1_voile_2
+    6400018: m_t_Cylinder
+    6400020: m_t_Cylinder_1
+    6400022: m_t_voile
+    6400024: m_t_voile_1
+    6400026: m_t_wooden_voile_1_Cylinder1
+    6400028: m_t_wooden_voile_1_Cylinder_22
+    6400030: m_t_wooden_voile_Cylinder6
+    6400032: m_t_wooden_voile_Cylinder_2
+    6400034: Plane
+    6400036: stair_1_Cloner1_marche2_3
+    6400038: stair_1_Cloner1_marche2_4
+    6400040: stair_1_Cloner1_marche2_5
+    6400042: stair_1_Cloner1_marche_0
+    6400044: stair_1_Cloner1_marche_1
+    6400046: stair_1_Cloner1_marche_21
+    6400048: stair_1_planche1
+    6400050: stair_1_plnache2
+    6400052: stair_Cloner_marche2_10
+    6400054: stair_Cloner_marche2_11
+    6400056: stair_Cloner_marche2_12
+    6400058: stair_Cloner_marche2_13
+    6400060: stair_Cloner_marche2_7
+    6400062: stair_Cloner_marche2_8
+    6400064: stair_Cloner_marche2_9
+    6400066: stair_Cloner_marche_01
+    6400068: stair_Cloner_marche_11
+    6400070: stair_Cloner_marche_2
+    6400072: stair_Cloner_marche_3
+    6400074: stair_Cloner_marche_4
+    6400076: stair_Cloner_marche_5
+    6400078: stair_Cloner_marche_6
+    6400080: stair_planche
+    6400082: stair_plnache21
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -429,7 +471,7 @@ ModelImporter:
       name: stair_plnache21Mat
     second: {fileID: 2100000, guid: 3ca96162258a82b40870b0e0bc82eeb8, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -459,11 +501,11 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 0.0005
     meshCompression: 0
-    addColliders: 0
-    importVisibility: 1
+    addColliders: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -480,7 +522,7 @@ ModelImporter:
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
